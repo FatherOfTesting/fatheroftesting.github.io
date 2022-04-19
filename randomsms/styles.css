@@ -1,0 +1,36 @@
+.sms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sms__settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border: 2px solid gray;
+    width: fit-content;
+    border-radius: 25px;
+    min-height: 110px;
+}
+
+.sms__select {
+    display: none;
+}
+
+.sms__button {
+    margin-top: 25px;
+}
+
+.sms__message {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 36px;
+}
+
+.sms__input:checked + .sms__select {
+    display: block;
+}
+
